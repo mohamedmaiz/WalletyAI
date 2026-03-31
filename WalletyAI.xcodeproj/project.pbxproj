@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0410D3252F4E049B007A0D41 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 0410D3242F4E049B007A0D41 /* SwiftUICharts */; };
+		04BCB4B02F7922ED00E9CC00 /* Transactions in Frameworks */ = {isa = PBXBuildFile; productRef = 04BCB4AF2F7922ED00E9CC00 /* Transactions */; };
+		04BCB4B22F7922F100E9CC00 /* Categories in Frameworks */ = {isa = PBXBuildFile; productRef = 04BCB4B12F7922F100E9CC00 /* Categories */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0473CAB52F3E967B0083A842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0473CA9A2F3E96780083A842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0473CAA12F3E96780083A842;
+			remoteInfo = SpendInsight;
+		};
+		0473CABF2F3E967B0083A842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0473CA9A2F3E96780083A842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0473CAA12F3E96780083A842;
+			remoteInfo = SpendInsight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0473CAA22F3E96780083A842 /* WalletyAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletyAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0473CAB42F3E967B0083A842 /* WalletyAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletyAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0473CABE2F3E967B0083A842 /* WalletyAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletyAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		04C27C8F2F7C1C6E008863C0 /* Exceptions for "WalletyAI" folder in "WalletyAI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CoreUI,
+				CoreUtils,
+				Features/Analysis,
+			);
+			target = 0473CAA12F3E96780083A842 /* WalletyAI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0473CAA42F3E96780083A842 /* WalletyAI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				04C27C8F2F7C1C6E008863C0 /* Exceptions for "WalletyAI" folder in "WalletyAI" target */,
+			);
+			explicitFolders = (
+				CoreUI,
+				CoreUtils,
+				Features/Analysis,
+			);
+			path = WalletyAI;
+			sourceTree = "<group>";
+		};
+		0473CAB72F3E967B0083A842 /* WalletyAITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WalletyAITests;
+			sourceTree = "<group>";
+		};
+		0473CAC12F3E967B0083A842 /* WalletyAIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WalletyAIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0473CA9F2F3E96780083A842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BCB4B22F7922F100E9CC00 /* Categories in Frameworks */,
+				0410D3252F4E049B007A0D41 /* SwiftUICharts in Frameworks */,
+				04BCB4B02F7922ED00E9CC00 /* Transactions in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0473CAB12F3E967B0083A842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0473CABB2F3E967B0083A842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0473CA992F3E96780083A842 = {
+			isa = PBXGroup;
+			children = (
+				0473CAA42F3E96780083A842 /* WalletyAI */,
+				0473CAB72F3E967B0083A842 /* WalletyAITests */,
+				0473CAC12F3E967B0083A842 /* WalletyAIUITests */,
+				04BCB4AE2F7922ED00E9CC00 /* Frameworks */,
+				0473CAA32F3E96780083A842 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0473CAA32F3E96780083A842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0473CAA22F3E96780083A842 /* WalletyAI.app */,
+				0473CAB42F3E967B0083A842 /* WalletyAITests.xctest */,
+				0473CABE2F3E967B0083A842 /* WalletyAIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BCB4AE2F7922ED00E9CC00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0473CAA12F3E96780083A842 /* WalletyAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0473CAC82F3E967B0083A842 /* Build configuration list for PBXNativeTarget "WalletyAI" */;
+			buildPhases = (
+				0473CA9E2F3E96780083A842 /* Sources */,
+				0473CA9F2F3E96780083A842 /* Frameworks */,
+				0473CAA02F3E96780083A842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0473CAA42F3E96780083A842 /* WalletyAI */,
+			);
+			name = WalletyAI;
+			packageProductDependencies = (
+				0410D3242F4E049B007A0D41 /* SwiftUICharts */,
+				04BCB4AF2F7922ED00E9CC00 /* Transactions */,
+				04BCB4B12F7922F100E9CC00 /* Categories */,
+			);
+			productName = SpendInsight;
+			productReference = 0473CAA22F3E96780083A842 /* WalletyAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0473CAB32F3E967B0083A842 /* WalletyAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0473CACB2F3E967B0083A842 /* Build configuration list for PBXNativeTarget "WalletyAITests" */;
+			buildPhases = (
+				0473CAB02F3E967B0083A842 /* Sources */,
+				0473CAB12F3E967B0083A842 /* Frameworks */,
+				0473CAB22F3E967B0083A842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0473CAB62F3E967B0083A842 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0473CAB72F3E967B0083A842 /* WalletyAITests */,
+			);
+			name = WalletyAITests;
+			packageProductDependencies = (
+			);
+			productName = SpendInsightTests;
+			productReference = 0473CAB42F3E967B0083A842 /* WalletyAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0473CABD2F3E967B0083A842 /* WalletyAIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0473CACE2F3E967B0083A842 /* Build configuration list for PBXNativeTarget "WalletyAIUITests" */;
+			buildPhases = (
+				0473CABA2F3E967B0083A842 /* Sources */,
+				0473CABB2F3E967B0083A842 /* Frameworks */,
+				0473CABC2F3E967B0083A842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0473CAC02F3E967B0083A842 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0473CAC12F3E967B0083A842 /* WalletyAIUITests */,
+			);
+			name = WalletyAIUITests;
+			packageProductDependencies = (
+			);
+			productName = SpendInsightUITests;
+			productReference = 0473CABE2F3E967B0083A842 /* WalletyAIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0473CA9A2F3E96780083A842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					0473CAA12F3E96780083A842 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					0473CAB32F3E967B0083A842 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 0473CAA12F3E96780083A842;
+					};
+					0473CABD2F3E967B0083A842 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 0473CAA12F3E96780083A842;
+					};
+				};
+			};
+			buildConfigurationList = 0473CA9D2F3E96780083A842 /* Build configuration list for PBXProject "WalletyAI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0473CA992F3E96780083A842;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0410D3232F4E049B007A0D41 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0473CAA32F3E96780083A842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0473CAA12F3E96780083A842 /* WalletyAI */,
+				0473CAB32F3E967B0083A842 /* WalletyAITests */,
+				0473CABD2F3E967B0083A842 /* WalletyAIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0473CAA02F3E96780083A842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0473CAB22F3E967B0083A842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0473CABC2F3E967B0083A842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0473CA9E2F3E96780083A842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0473CAB02F3E967B0083A842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0473CABA2F3E967B0083A842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0473CAB62F3E967B0083A842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0473CAA12F3E96780083A842 /* WalletyAI */;
+			targetProxy = 0473CAB52F3E967B0083A842 /* PBXContainerItemProxy */;
+		};
+		0473CAC02F3E967B0083A842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0473CAA12F3E96780083A842 /* WalletyAI */;
+			targetProxy = 0473CABF2F3E967B0083A842 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0473CAC62F3E967B0083A842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0473CAC72F3E967B0083A842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0473CAC92F3E967B0083A842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZKW5TXF72Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WalletyAI;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wallety.ai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0473CACA2F3E967B0083A842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZKW5TXF72Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WalletyAI;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wallety.ai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0473CACC2F3E967B0083A842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = spendy.SpendInsightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpendInsight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpendInsight";
+			};
+			name = Debug;
+		};
+		0473CACD2F3E967B0083A842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = spendy.SpendInsightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpendInsight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpendInsight";
+			};
+			name = Release;
+		};
+		0473CACF2F3E967B0083A842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = spendy.SpendInsightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpendInsight;
+			};
+			name = Debug;
+		};
+		0473CAD02F3E967B0083A842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = spendy.SpendInsightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpendInsight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0473CA9D2F3E96780083A842 /* Build configuration list for PBXProject "WalletyAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0473CAC62F3E967B0083A842 /* Debug */,
+				0473CAC72F3E967B0083A842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0473CAC82F3E967B0083A842 /* Build configuration list for PBXNativeTarget "WalletyAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0473CAC92F3E967B0083A842 /* Debug */,
+				0473CACA2F3E967B0083A842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0473CACB2F3E967B0083A842 /* Build configuration list for PBXNativeTarget "WalletyAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0473CACC2F3E967B0083A842 /* Debug */,
+				0473CACD2F3E967B0083A842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0473CACE2F3E967B0083A842 /* Build configuration list for PBXNativeTarget "WalletyAIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0473CACF2F3E967B0083A842 /* Debug */,
+				0473CAD02F3E967B0083A842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0410D3232F4E049B007A0D41 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0410D3242F4E049B007A0D41 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0410D3232F4E049B007A0D41 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		04BCB4AF2F7922ED00E9CC00 /* Transactions */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Transactions;
+		};
+		04BCB4B12F7922F100E9CC00 /* Categories */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Categories;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0473CA9A2F3E96780083A842 /* Project object */;
+}
