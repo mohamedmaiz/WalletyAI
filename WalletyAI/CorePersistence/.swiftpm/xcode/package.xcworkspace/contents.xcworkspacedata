@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "self:"
+      name = "CorePersistence">
+      <Group
+         location = "group:Tests"
+         name = "Tests">
+         <Group
+            location = "group:CorePersistenceTests"
+            name = "CorePersistenceTests">
+            <FileRef
+               location = "group:CorePersistenceTests.swift">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:Package.swift">
+      </FileRef>
+      <Group
+         location = "group:Sources"
+         name = "Sources">
+         <Group
+            location = "group:CorePersistence"
+            name = "CorePersistence">
+            <FileRef
+               location = "group:CorePersistence.swift">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+</Workspace>

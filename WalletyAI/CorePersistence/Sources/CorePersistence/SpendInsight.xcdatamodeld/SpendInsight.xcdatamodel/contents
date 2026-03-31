@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="24512" systemVersion="25D125" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CategoryEntity" representedClassName="CategoryEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="icon" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="recurring" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecurringEntity" inverseName="parentCategory" inverseEntity="RecurringEntity"/>
+        <relationship name="transactions" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="TransactionEntity" inverseName="category" inverseEntity="TransactionEntity"/>
+    </entity>
+    <entity name="RecurringEntity" representedClassName="RecurringEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="endCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="endType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="frequency" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="frequencyRule" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="is_subscription" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="nextExcutionDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="occurrencesCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="generatedTransaction" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TransactionEntity" inverseName="recurring" inverseEntity="TransactionEntity"/>
+        <relationship name="parentCategory" optional="YES" maxCount="1" deletionRule="Nullify" ordered="YES" destinationEntity="CategoryEntity" inverseName="recurring" inverseEntity="CategoryEntity"/>
+    </entity>
+    <entity name="TransactionEntity" representedClassName="TransactionEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dsc" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CategoryEntity" inverseName="transactions" inverseEntity="CategoryEntity"/>
+        <relationship name="recurring" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecurringEntity" inverseName="generatedTransaction" inverseEntity="RecurringEntity"/>
+    </entity>
+</model>
