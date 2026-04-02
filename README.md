@@ -85,8 +85,8 @@ SpendInsight
 
 > ⚠️ This project requires **Xcode 16+** and **iOS 16+** to run properly.
 
-- Xcode 16 or later  
-- iOS 16+
+- Xcode 26 or later  
+- iOS 26+
   
 ## Getting Started
 
